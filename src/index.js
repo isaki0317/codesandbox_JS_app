@@ -1,4 +1,5 @@
 //********テンプレート文字列
+/*
 // const name = "いさき";
 // const age = 22;
 
@@ -6,6 +7,7 @@
 // console.log(message);
 
 //*******アロー関数
+/*
 //従来
 // function fn1(str) {
 //   return str;
@@ -26,6 +28,7 @@
 // console.log(fn3(5, 4));
 
 //*********分割代入
+/*
 // const myProfile = {
 //   name: "イサキ",
 //   age: 22
@@ -47,3 +50,36 @@
 // const [name, age] = myProfile;
 // const message4 = `名前は${name}です、年齢は${age}です。`;
 // console.log(message4);
+
+//********デフォルト値
+/*
+// const sayHello = (name = "ゲスト") => console.log(`こんにちわ${name}さん`);
+// sayHello();
+
+///********スプレッド構文 
+*/
+//配列の展開
+// const arry1 = [1, 2];
+// // console.log(arry1);
+// // console.log(...arry1);
+
+// const sumFn = (num1, num2) => console.log(num1 + num2);
+// sumFn(arry1[0], arry1[1]);
+
+// sumFn(...arry1);
+
+//配列にまとめる
+// const arry2 = [1, 2, 3, 4];
+// const [num1, num2, ...arry3] = arry2;
+// console.log(num1);
+// console.log(arry3);
+
+//配列のコピーや結合
+// const arry4 = [10, 20];
+// const arry5 = [30, 40];
+
+// const arry6 = [...arry4];
+// console.log(arry6);
+
+// const arry7 = [...arry4, ...arry5];
+// console.log(arry7);
